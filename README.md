@@ -1,5 +1,7 @@
 # Emmanuel Karanja
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/adf496e7-df2d-49a3-afeb-521ed6f346c1/deploy-status)](https://app.netlify.com/sites/ekaranja/deploys)
+
 <div align="center">
     <img src="https://github.com/ekaranjaa/portfolio/blob/master/static/screenshot.png">
 </div>
