@@ -68,6 +68,7 @@
           <img
             src="@/assets/images/author.png"
             alt="Emmanuel Karanja"
+            loading="lazy"
             class="w-full object-cover"
           />
         </div>

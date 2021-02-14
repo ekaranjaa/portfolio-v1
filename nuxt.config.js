@@ -12,6 +12,36 @@ export default {
         content: 'UI/UX designer and full-stack web developer.'
       },
       {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://ekaranja.netlify.app/screenshot.png'
+      },
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        hid: 'twitter:url',
+        property: 'twitter:url',
+        content: 'https://ekaranja.netlify.app'
+      },
+      {
+        hid: 'twitter:title',
+        property: 'twitter:title',
+        content: 'Emmanuel Karanja'
+      },
+      {
+        hid: 'twitter:description',
+        property: 'twitter:description',
+        content: 'UI/UX designer and full-stack web developer.'
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: 'https://ekaranja.netlify.app/screenshot.png'
+      },
+      {
         hid: 'msapplication-TileColor',
         name: 'msapplication-TileColor',
         content: '#2b5797'
@@ -21,7 +51,7 @@ export default {
         name: 'msapplication-config',
         content: '/browserconfig.xml'
       },
-      { name: 'theme-color', content: '#406bc7' }
+      { name: 'theme-color', content: '#fff' }
     ],
     link: [
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
@@ -64,8 +94,8 @@ export default {
       short_name: 'EKaranja',
       start_url: '/',
       display: 'standalone',
-      theme_color: '#406bc7',
-      background_color: '#406bc7',
+      theme_color: '#fff',
+      background_color: '#fff',
       description: 'UI/UX designer and full-stack web developer.',
       icons: [
         {
