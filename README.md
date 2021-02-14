@@ -1,6 +1,12 @@
-# emmanuel-karanja
+# Emmanuel Karanja
 
-## Build Setup
+<div align="center">
+    <img src="https://github.com/ekaranjaa/portfolio/blob/master/static/screenshot.png">
+</div>
+
+---
+
+## Build Setup ⚙️
 
 ```bash
 # install dependencies
@@ -17,4 +23,4 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org) and [Tailwindcss docs](https://tailwindcss.com) for styling and colors.
