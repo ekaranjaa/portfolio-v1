@@ -1,0 +1,11 @@
+{
+    "title": "GADS 2020",
+    "description": "This is project I worked on during my time at GADS(Google Africa Developer Scholarship) 2020. I could create, update and delete notes and short todo lists while tracking my progress through the scholarship period.",
+    "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "github_link": "https://github.com/ekaranjaa/gads",
+    "live_link": "https://keka.netlify.app"
+}

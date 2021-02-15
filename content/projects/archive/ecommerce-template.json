@@ -1,0 +1,11 @@
+{
+    "title": "E-commerce Template",
+    "description": "A simple e-commerce template I did as a test paper.",
+    "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "github_link": "https://github.com/ekaranjaa/ecommerce-template",
+    "live_link": "https://ms1.netlify.app"
+}

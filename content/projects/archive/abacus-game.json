@@ -1,0 +1,11 @@
+{
+    "title": "\"Abacus\" game",
+    "description": "A tricky challenge we were given at one of my dev groups.",
+    "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "github_link": "https://github.com/ekaranjaa/abacus-game",
+    "live_link": "https://intgame.netlify.app"
+}

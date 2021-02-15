@@ -1,0 +1,12 @@
+{
+    "title": "PHP CRUD app",
+    "description": "A project I worked on when learning PHP CRUD operations and procedural programming.",
+    "languages": [
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "github_link": "https://github.com/ekaranjaa/gads",
+    "live_link": "http://zalegoacademy.co.ke/keka-ss1/Php%20crud%20app/index.php"
+}

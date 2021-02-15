@@ -1,0 +1,12 @@
+{
+    "title": "Task Manager",
+    "cover_image": "/images/projects/task-manager.png",
+    "description": "Easily manage your team. Keep track of your team, assign tasks and much more.",
+    "languages": [
+        "Laravel",
+        "NuxtJS",
+        "Tailwindcss"
+    ],
+    "github_link": "https://github.com/ekaranjaa/task-manager",
+    "live_link": "https://taskmanagr.netlify.app"
+}

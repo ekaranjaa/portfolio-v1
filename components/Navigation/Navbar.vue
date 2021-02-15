@@ -1,7 +1,7 @@
 <template>
   <nav
     ref="navbar"
-    class="px-8 h-20 flex items-center justify-between fixed top-0 w-full transition-all bg-opacity-90 dark:bg-opacity-90 z-10"
+    class="px-8 h-20 flex items-center justify-between fixed top-0 w-full transition-all bg-opacity-90 dark:bg-opacity-90 z-20"
     :class="{ 'bg-white dark:bg-gray-900 bg-blur': !top }"
   >
     <logo />

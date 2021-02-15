@@ -1,0 +1,11 @@
+{
+    "title": "Memory Game",
+    "description": "A challenge we were given during GADS(Google Africa Developer Scholarship) 2020. Try and remember and match your previously flipped cards in the shortest time possible :)",
+    "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "github_link": "https://github.com/ekaranjaa/moviezz",
+    "live_link": "https://iqgame.netlify.app"
+}

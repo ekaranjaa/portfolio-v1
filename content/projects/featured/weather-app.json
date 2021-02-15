@@ -1,0 +1,12 @@
+{
+    "title": "Weather App",
+    "cover_image": "/images/projects/weather-app.png",
+    "description": "This is a project we were tasked with during my time at GADS(Google Africa Developer Scholarship) 2020. Get weather information on any location with a simple search.",
+    "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "github_link": "https://github.com/ekaranjaa/norman-portfolio",
+    "live_link": "https://smashit.netlify.app"
+}

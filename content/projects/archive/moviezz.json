@@ -1,0 +1,12 @@
+{
+    "title": "Moviezz",
+    "description": "Yet another movie app :) This is a project I worked on while learning OOP and MVC architecture with PHP. It supports all CRUD functions and auth strategies.",
+    "languages": [
+        "PHP",
+        "HTML",
+        "Tailwindcss",
+        "JavaScript"
+    ],
+    "github_link": "https://github.com/ekaranjaa/moviezz",
+    "live_link": "https://github.com/ekaranjaa/moviezz#set-up"
+}

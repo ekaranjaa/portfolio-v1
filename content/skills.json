@@ -1,0 +1,60 @@
+{
+    "skills": [
+        {
+            "name": "JavaScript",
+            "icon": "js.svg"
+        },
+        {
+            "name": "TypeScript",
+            "icon": "ts.svg"
+        },
+        {
+            "name": "PHP",
+            "icon": "php.svg"
+        },
+        {
+            "name": "NodeJS",
+            "icon": "nodejs.svg"
+        },
+        {
+            "name": "MySQL",
+            "icon": "mysql.svg"
+        },
+        {
+            "name": "Mongo DB",
+            "icon": "mongodb.svg"
+        },
+        {
+            "name": "Git",
+            "icon": "git.svg"
+        },
+        {
+            "name": "HTML",
+            "icon": "html.svg"
+        },
+        {
+            "name": "CSS",
+            "icon": "css.svg"
+        },
+        {
+            "name": "SASS",
+            "icon": "sass.svg"
+        },
+        {
+            "name": "Express",
+            "icon": "express.svg"
+        },
+        {
+            "name": "Laravel",
+            "icon": "laravel.svg"
+        },
+        {
+            "name": "VueJS",
+            "icon": "vue.svg"
+        },
+        {
+            "name": "Tailwindcss",
+            "icon": "tailwindcss.svg"
+        }
+    ]
+}
