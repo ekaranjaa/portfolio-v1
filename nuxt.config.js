@@ -114,7 +114,7 @@ export default {
   },
 
   googleAnalytics: {
-    id: '',
+    id: 'UA-155390144-1',
     debug: {
       sendHitTask: true
     }
