@@ -75,7 +75,7 @@
           </nuxt-link>
         </div>
         <div
-          class="avatar mx-auto mt-32 mb-14 h-60 w-60 md:h-64 md:w-64 bg-blue-500 dark:bg-red-500 rounded-full overflow-hidden"
+          class="avatar mx-auto mt-32 mb-14 md:mt-0 md:mb-0 h-60 w-60 md:h-64 md:w-64 bg-blue-500 dark:bg-red-500 rounded-full overflow-hidden"
         >
           <img
             :src="`/images/profile/${about.image}`"
