@@ -20,7 +20,7 @@
         }"
       >
         <div
-          class="h-80 relative lg:border-2 lg:dark:border-gray-800 lg:max-w-xl rounded-xl overflow-hidden shadow-xl"
+          class="h-80 relative lg:max-w-xl rounded-xl overflow-hidden shadow-xl"
         >
           <div
             class="hidden lg:block absolute inset-0 bg-blue-500 dark:bg-gray-800 bg-opacity-50 dark:bg-opacity-50 transition duration-300 hover:bg-opacity-0 dark:hover:bg-opacity-0"
@@ -28,6 +28,7 @@
           <img
             :src="project.cover_image"
             :alt="project.title"
+            loading="lazy"
             class="h-full w-full object-cover"
           />
         </div>
