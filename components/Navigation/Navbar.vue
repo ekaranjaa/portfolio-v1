@@ -1,7 +1,7 @@
 <template>
   <nav
     ref="navbar"
-    class="px-8 h-20 flex items-center justify-between fixed top-0 w-full transition-all bg-opacity-90 dark:bg-opacity-90 z-20"
+    class="px-8 h-20 flex items-center justify-between fixed top-0 w-full transition-all bg-opacity-80 dark:bg-opacity-80 z-20"
     :class="{ 'bg-white dark:bg-gray-900 bg-blur': !top }"
   >
     <logo />
@@ -35,18 +35,21 @@
         >
       </li>
     </ul>
-    <theme-toggle />
+    <menu-toggle />
+    <theme-toggle class="hidden md:block" />
   </nav>
 </template>
 
 <script>
 import Logo from '../Icons/Logo.vue';
+import MenuToggle from '../Widgets/MenuToggle.vue';
 import ThemeToggle from '../Widgets/ThemeToggle.vue';
 
 export default {
   name: 'Navbar',
   components: {
     Logo,
+    MenuToggle,
     ThemeToggle
   },
   data() {

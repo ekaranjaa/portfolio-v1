@@ -4,6 +4,7 @@
   >
     <background />
     <navbar />
+    <mobile-menu />
     <Nuxt />
     <footr />
   </div>
@@ -13,8 +14,9 @@
 import Navbar from '@/components/Navigation/Navbar.vue';
 import Footr from '@/components/Navigation/Footr.vue';
 import Background from '@/components/Widgets/Background.vue';
+import MobileMenu from '@/components/Navigation/MobileMenu.vue';
 
 export default {
-  components: { Navbar, Footr, Background }
+  components: { Navbar, Footr, Background, MobileMenu }
 };
 </script>

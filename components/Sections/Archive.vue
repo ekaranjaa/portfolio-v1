@@ -53,6 +53,13 @@
           </p>
         </article>
       </div>
+      <button
+        class="mx-auto mt-6 px-6 py-3 block bg-gradient-to-br from-blue-500 to-blue-700 dark:from-red-500 dark:to-red-700 ring-blue-500 dark:ring-red-500 focus:ring-2 text-white rounded-full shadow-xl outline-none"
+        :class="{ hidden: climax }"
+        @click="addLimit"
+      >
+        Show More
+      </button>
     </div>
   </section>
 </template>
@@ -67,15 +74,26 @@ export default {
   components: { GitHub, ExternalLink, Folder },
   data() {
     return {
-      projects: []
+      projects: [],
+      limit: 3,
+      climax: false
     };
   },
   created() {
     this.getProjects();
   },
   methods: {
+    async addLimit() {
+      this.limit += 3;
+      await this.getProjects();
+      if (this.limit >= this.projects.length + 1) {
+        this.climax = true;
+      }
+    },
     async getProjects() {
-      const projects = await this.$content('projects/archive').fetch();
+      const projects = await this.$content('projects/archive')
+        .limit(this.limit)
+        .fetch();
 
       this.projects = projects;
     }
