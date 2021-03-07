@@ -2,7 +2,7 @@ export default {
   target: 'static',
 
   head: {
-    title: 'Emmanuel Karanja - Designer & Full-stack developer',
+    title: 'Emmanuel Karanja - Designer & Full-stack web developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -10,7 +10,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Experienced agile developer and UI/UX designer familiar with DevOps practices, working in a Linux based environment with technologies such as JavaScript, Node.js, PHP and more.'
+          'Young, versatile and enthusiastic programmer and entrepreneur. I build things for the web using technologies such as JavaScript, Node.js, PHP and more.'
       },
       {
         hid: 'og:image',
