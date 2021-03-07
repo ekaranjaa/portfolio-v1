@@ -2,14 +2,15 @@ export default {
   target: 'static',
 
   head: {
-    title: 'Emmanuel Karanja - Designer & web developer',
+    title: 'Emmanuel Karanja - Designer & Full-stack developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'UI/UX designer and full-stack web developer.'
+        content:
+          'Experienced agile developer and UI/UX designer familiar with DevOps practices, working in a Linux based environment with technologies such as JavaScript, Node.js, PHP and more.'
       },
       {
         hid: 'og:image',
@@ -34,7 +35,8 @@ export default {
       {
         hid: 'twitter:description',
         property: 'twitter:description',
-        content: 'UI/UX designer and full-stack web developer.'
+        content:
+          'Experienced agile developer and UI/UX designer familiar with DevOps practices, working in a Linux based environment with technologies such as JavaScript, Node.js, PHP and more.'
       },
       {
         hid: 'twitter:image',
@@ -96,7 +98,8 @@ export default {
       display: 'standalone',
       theme_color: '#fff',
       background_color: '#fff',
-      description: 'UI/UX designer and full-stack web developer.',
+      description:
+        'Experienced agile developer and UI/UX designer familiar with DevOps practices, working in a Linux based environment with technologies such as JavaScript, Node.js, PHP and more.',
       icons: [
         {
           src: '/icons/android-chrome-192x192.png',

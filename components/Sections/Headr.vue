@@ -69,7 +69,7 @@
           </div>
           <nuxt-link
             to="#contact"
-            class="px-6 py-3 inline-block bg-gradient-to-br from-blue-500 to-blue-700 dark:from-red-500 dark:to-red-700 text-white ring-blue-500 dark:ring-red-500 focus:ring-2 transition shadow-xl rounded-full outline-none"
+            class="px-6 py-3 inline-block bg-gradient-to-br from-blue-500 to-blue-700 dark:from-red-500 dark:to-red-700 text-white ring-blue-500 dark:ring-red-500 hover:shadow-md focus:shadow-md focus:ring-2 transition shadow-xl rounded-full outline-none"
           >
             Get In Touch
           </nuxt-link>

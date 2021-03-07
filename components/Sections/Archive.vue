@@ -54,7 +54,7 @@
         </article>
       </div>
       <button
-        class="mx-auto mt-6 px-6 py-3 block bg-gradient-to-br from-blue-500 to-blue-700 dark:from-red-500 dark:to-red-700 ring-blue-500 dark:ring-red-500 focus:ring-2 text-white rounded-full shadow-xl outline-none"
+        class="mx-auto mt-6 px-6 py-3 block bg-gradient-to-br from-blue-500 to-blue-700 dark:from-red-500 dark:to-red-700 ring-blue-500 dark:ring-red-500 hover:shadow-md focus:shadow-md focus:ring-2 text-white rounded-full shadow-xl transition focus:outline-none"
         :class="{ hidden: climax }"
         @click="addLimit"
       >

@@ -1,12 +1,16 @@
 <template>
   <section id="contact" class="relative">
     <div class="container mx-auto px-8 py-4 md:px-20 md:py-10 max-w-6xl">
-      <h2 class="mb-4 text-center font-baskervile text-4xl">
+      <h2 class="mb-2 text-center font-baskervile text-4xl">
         <span>Get In Touch</span>
         <span
           class="mt-2 mx-auto block w-24 h-0.5 bg-gray-800 dark:bg-gray-200"
         ></span>
       </h2>
+      <p class="mb-4 text-center font-light">
+        Do you have a ✨ PROJECT IDEA ✨ or just want to say HI😊 drop me a
+        line!
+      </p>
       <div class="mx-auto max-w-sm">
         <div
           class="mb-4 text-center"
@@ -65,7 +69,7 @@
           </div>
           <button
             type="submit"
-            class="mx-auto mt-6 px-6 py-3 block bg-gradient-to-br from-blue-500 to-blue-700 dark:from-red-500 dark:to-red-700 ring-blue-500 dark:ring-red-500 focus:ring-2 text-white rounded-full shadow-xl outline-none"
+            class="mx-auto mt-6 px-6 py-3 block bg-gradient-to-br from-blue-500 to-blue-700 dark:from-red-500 dark:to-red-700 ring-blue-500 dark:ring-red-500 hover:shadow-md focus:shadow-md focus:ring-2 text-white rounded-full transition shadow-xl focus:outline-none"
             :class="{ 'pointer-events-none': busy }"
           >
             <span v-if="busy">Sending...</span>
