@@ -36,7 +36,7 @@ export default {
         hid: 'twitter:description',
         property: 'twitter:description',
         content:
-          'Experienced agile developer and UI/UX designer familiar with DevOps practices, working in a Linux based environment with technologies such as JavaScript, Node.js, PHP and more.'
+          'Young, versatile and enthusiastic programmer and entrepreneur. I build things for the web using technologies such as JavaScript, Node.js, PHP and more.'
       },
       {
         hid: 'twitter:image',
@@ -99,7 +99,7 @@ export default {
       theme_color: '#fff',
       background_color: '#fff',
       description:
-        'Experienced agile developer and UI/UX designer familiar with DevOps practices, working in a Linux based environment with technologies such as JavaScript, Node.js, PHP and more.',
+        'Young, versatile and enthusiastic programmer and entrepreneur. I build things for the web using technologies such as JavaScript, Node.js, PHP and more.',
       icons: [
         {
           src: '/icons/android-chrome-192x192.png',
