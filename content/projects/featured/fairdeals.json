@@ -1,7 +1,7 @@
 {
     "title": "Fairdeals Cash & Bargains",
     "cover_image": "/images/projects/fairdeals.png",
-    "description": "Fairdeals Cash & Bargains is company that offers loans off of pre-loved electronic items. They contracted me to build their platform and optimize their online presence.",
+    "description": "Fairdeals Cash & Bargains is company that offers loans off of pre-loved electronic items. They needed an online  platform and already had an idea of how they wanted it to look(poster designs) so I made this website while improving on the key areas of their existing design.",
     "languages": [
         "Laravel",
         "Tailwindcss",
