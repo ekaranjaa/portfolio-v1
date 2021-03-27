@@ -1,7 +1,7 @@
 {
     "title": "Task Manager",
     "cover_image": "/images/projects/task-manager.png",
-    "description": "Easily manage your team. Keep track of your team, assign tasks and much more.",
+    "description": "Task Manager is a web-app that enables you to easily manage your team, keep track of your team, assign tasks and much more thus improving your overall workflow. This was an interview project.",
     "languages": [
         "Laravel",
         "NuxtJS",

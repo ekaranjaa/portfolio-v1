@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
+import { mapGetters, mapActions } from 'vuex';
 import MenuToggle from '@/components/Widgets/MenuToggle.vue';
 import ThemeToggle from '@/components/Widgets/ThemeToggle.vue';
 
@@ -59,6 +59,18 @@ export default {
   components: { ThemeToggle, MenuToggle },
   computed: mapGetters({
     menu: 'menu'
+  }),
+  watch: {
+    menu() {
+      if (this.menu) {
+        window.onclick = () => {
+          this.closeMenu();
+        };
+      }
+    }
+  },
+  methods: mapActions({
+    closeMenu: 'closeMenu'
   })
 };
 </script>

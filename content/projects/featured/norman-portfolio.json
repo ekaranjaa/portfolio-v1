@@ -1,7 +1,7 @@
 {
     "title": "Norman's Portfolio",
     "cover_image": "/images/projects/norman-portfolio.png",
-    "description": "I built a great portfolio for a friend. Check out their experience, work and more in a beautifull, well organised UI.",
+    "description": "I designed and made a great portfolio for a friend. Check out their experience, work and more in a beautifull, well organised UI.",
     "languages": [
         "VueJS/NuxtJS",
         "Tailwindcss"

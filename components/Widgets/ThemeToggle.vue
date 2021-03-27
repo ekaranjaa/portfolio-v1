@@ -2,14 +2,14 @@
   <div>
     <button
       v-show="theme === 'dark'"
-      class="p-2 h-10 w-10 rounded-full transition hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 focus:outline-none"
+      class="p-2 h-10 w-10 rounded-full transition ring-blue-500 dark:ring-red-500 hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 focus:ring-2 focus:outline-none"
       @click="setTheme('light')"
     >
       <light />
     </button>
     <button
       v-show="theme === 'light'"
-      class="p-2 h-10 w-10 rounded-full transition hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 focus:outline-none"
+      class="p-2 h-10 w-10 rounded-full transition ring-blue-500 dark:ring-red-500 hover:bg-blue-100 dark:hover:bg-gray-700 focus:bg-blue-100 dark:focus:bg-gray-700 focus:ring-2 focus:outline-none"
       @click="setTheme('dark')"
     >
       <dark />

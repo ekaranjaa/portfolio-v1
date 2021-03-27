@@ -49,7 +49,14 @@
             <div
               class="lg:p-4 leading-6 text-sm lg:bg-gray-100 lg:dark:bg-gray-800 lg:shadow-xl lg:rounded-lg"
             >
-              <p>{{ project.description }}</p>
+              {{ trimDescription(project.description) }}
+              <button
+                v-if="trimDescription(project.description).length > 135"
+                class="text-blue-500 dark:text-red-500 hover:text-blue-600 dark:hover:text-red-600 focus:text-blue-600 dark:focus:text-red-600 underline focus:outline-none"
+                @click.stop="openModal({ content: project })"
+              >
+                Read more
+              </button>
             </div>
             <p
               class="mt-2 md:mt-4 text-sm text-gray-200 lg:text-gray-500 lg:dark:text-gray-400 rounded"
@@ -92,6 +99,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
 import ExternalLink from '../Icons/ExternalLink.vue';
 import GitHub from '../Icons/GitHub.vue';
 
@@ -107,10 +115,25 @@ export default {
     this.getProjects();
   },
   methods: {
+    ...mapActions({
+      openModal: 'openModal'
+    }),
     async getProjects() {
       const projects = await this.$content('projects/featured').fetch();
 
       this.projects = projects;
+    },
+    trimDescription(description) {
+      const maxLength = 135;
+      let trimmedDesc;
+
+      if (description.length > maxLength) {
+        trimmedDesc = `${description.substring(0, maxLength)}...`;
+      } else {
+        trimmedDesc = description;
+      }
+
+      return trimmedDesc;
     }
   }
 };

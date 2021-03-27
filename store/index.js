@@ -21,12 +21,10 @@ export const mutations = {
     state.menu = false;
   },
   OPEN_MODAL(state, payload) {
-    state.modal.active = true;
-    state.modal.content = payload;
+    state.modal = payload;
   },
-  CLOSE_MODAL(state) {
-    state.modal.active = false;
-    state.modal.content = null;
+  CLOSE_MODAL(state, payload) {
+    state.modal = payload;
   },
   SET_THEME(state, payload) {
     state.theme = payload;
@@ -46,12 +44,20 @@ export const actions = {
 
   openModal({ commit }, payload) {
     document.body.classList.add('overflow-hidden');
-    commit('OPEN_MODAL', payload);
+
+    commit('OPEN_MODAL', {
+      active: true,
+      ...payload
+    });
   },
 
   closeModal({ commit }) {
     document.body.classList.remove('overflow-hidden');
-    commit('CLOSE_MODAL');
+
+    commit('CLOSE_MODAL', {
+      active: false,
+      content: null
+    });
   },
 
   setTheme({ commit }, theme = null) {
