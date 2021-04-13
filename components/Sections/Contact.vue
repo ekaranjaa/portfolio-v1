@@ -95,41 +95,27 @@ export default {
     };
   },
   methods: {
-    // encode(data) {
-    //   const formData = new FormData();
+    encode(data) {
+      const formData = new FormData();
 
-    //   for (const key of Object.keys(data)) {
-    //     formData.append(key, data[key]);
-    //   }
+      for (const key of Object.keys(data)) {
+        formData.append(key, data[key]);
+      }
 
-    //   return new URLSearchParams(formData).toString();
-    // },
+      return new URLSearchParams(formData).toString();
+    },
 
     async submitForm() {
       this.status = null;
       this.busy = true;
 
-      // eslint-disable-next-line no-console
-      // console.log({
-      //   'form-name': 'contact',
-      //   ...this.form
-      // });
-
-      // eslint-disable-next-line no-console
-      // console.log(
-      //   this.encode({
-      //     'form-name': 'contact',
-      //     ...this.form
-      //   })
-      // );
-
       await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: {
+        body: this.encode({
           'form-name': 'contact',
           ...this.form
-        }
+        })
       })
         .then(() => {
           this.status = 'success';
