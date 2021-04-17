@@ -11,7 +11,7 @@
         Do you have a ✨ PROJECT IDEA ✨ or just want to say HI😊 drop me a
         line!
       </p>
-      <div class="mx-auto max-w-sm">
+      <div class="mx-auto max-w-sm relative">
         <div
           class="mb-4 text-center"
           :class="{
@@ -75,6 +75,18 @@
             <span v-if="!busy">Send</span>
           </button>
         </form>
+        <div
+          class="grid place-items-center absolute top-0 left-0 bottom-0 right-0 bg-white dark:bg-gray-800 bg-opacity-50 dark:bg-opacity-50"
+        >
+          <p class="text-center bg-white dark:bg-gray-800">
+            Under maintenance.
+            <a
+              href="mailto:karanjaemmanuel8@gmail.com"
+              class="text-blue-500 dark:text-red-500"
+              >Email me at karanjaemmanuel8@gmail.com</a
+            >. Thanks for your patience :)
+          </p>
+        </div>
       </div>
     </div>
   </section>

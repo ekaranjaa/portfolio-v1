@@ -1,0 +1,11 @@
+{
+    "title": "Appointment Management System",
+    "cover_image": "/images/projects/appointment-management-system.png",
+    "description": "This application enables you to easily manage appointments from your customers in a simple and agile manner. As a service provider you can create an account and register the service(s) you or your organisation offers and displays the services to the users(customers) who can easily book a session with you or your organisation conviniently. This is still a work in progress.",
+    "languages": [
+        "Tailwindcss",
+        "Nuxt.js"
+    ],
+    "github_link": "https://github.com/ekaranjaa",
+    "live_link": "https://amngr.netlify.app"
+}
