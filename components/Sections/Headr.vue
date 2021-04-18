@@ -21,7 +21,7 @@
             <a
               rel="noreferrer noopenner"
               target="_blank"
-              href="https://www.linkedin.com/in/emmanuel-karanja-306201"
+              href="https://www.linkedin.com/in/ekaranja"
               class="md:mr-8 p-2 flex-shrink-0 h-10 w-10 border-2 dark:border-gray-400 hover:text-blue-500 hover:border-blue-500 focus:text-blue-500 focus:border-blue-500 dark:hover:text-red-500 dark:hover:border-red-500 dark:focus:text-red-500 dark:focus:border-red-500 transition rounded-full outline-none"
             >
               <linked-in />
