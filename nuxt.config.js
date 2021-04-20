@@ -53,11 +53,7 @@ export default {
         name: 'msapplication-config',
         content: '/browserconfig.xml'
       },
-      { name: 'theme-color', content: '#fff' },
-      {
-        name: 'google-site-verification',
-        content: 'bz-eFDhFOHc6gjtB1liRSEf6Jka3OiI6YpsA71nWpqU'
-      }
+      { name: 'theme-color', content: '#fff' }
     ],
     link: [
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
