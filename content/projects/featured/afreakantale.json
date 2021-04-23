@@ -1,7 +1,7 @@
 {
     "title": "Afreakan Tale Photography",
     "cover_image": "/images/projects/afreakantale.png",
-    "description": "Afreakan Tale Photography is a professional photography company whose aim is capturing memories and putting smiles on client faces through our pictures. Inspired by their great work, and due to our friendship, I took the initiative to develop their website and online platform that users can book photo shoots, pay and recieve their photos. This is still a work in progress.",
+    "description": "Afreakan Tale Photography is a professional photography company whose aim is capturing memories and putting smiles on client faces through our pictures. Inspired by their great work, I took the initiative to develop their website and online platform that users can book photo shoots, pay and recieve their photos. This is still a work in progress.",
     "languages": [
         "Laravel",
         "Tailwindcss",

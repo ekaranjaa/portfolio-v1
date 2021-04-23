@@ -40,8 +40,9 @@
               v-model="form.name"
               name="name"
               type="text"
-              required
               class="p-2 block w-full border-b dark:bg-gray-800 border-gray-300 dark:border-gray-700 transition focus:border-blue-500 dark:focus:border-red-500 outline-none"
+              required
+              disabled
             />
           </div>
           <div class="mb-4">
@@ -51,8 +52,9 @@
               v-model="form.email"
               name="email"
               type="email"
-              required
               class="p-2 block w-full border-b dark:bg-gray-800 border-gray-300 dark:border-gray-700 transition focus:border-blue-500 dark:focus:border-red-500 outline-none"
+              required
+              disabled
             />
           </div>
           <div class="mb-4">
@@ -62,14 +64,16 @@
               v-model="form.message"
               name="message"
               rows="3"
-              required
               class="p-2 block w-full border-b dark:bg-gray-800 border-gray-300 dark:border-gray-700 transition focus:border-blue-500 dark:focus:border-red-500 outline-none"
+              required
+              disabled
             ></textarea>
           </div>
           <button
             type="submit"
             class="mx-auto mt-6 px-6 py-3 block bg-gradient-to-br from-blue-500 to-blue-700 dark:from-red-500 dark:to-red-700 ring-blue-500 dark:ring-red-500 hover:shadow-md focus:shadow-md focus:ring-2 text-white rounded-full transition shadow-xl focus:outline-none"
             :class="{ 'pointer-events-none': busy }"
+            disabled
           >
             <span v-if="busy">Sending...</span>
             <span v-if="!busy">Send</span>
@@ -82,8 +86,9 @@
             Under maintenance.
             <a
               href="mailto:karanjaemmanuel8@gmail.com"
-              class="text-blue-500 dark:text-red-500"
-              >Email me at karanjaemmanuel8@gmail.com</a
+              class="text-blue-500 dark:text-red-500 hover:text-blue-600 focus:text-blue-600 dark:hover:text-red-600 dark:focus:text-red-600 focus:outline-none"
+            >
+              Email me at karanjaemmanuel8@gmail.com </a
             >. Thanks for your patience :)
           </p>
         </div>
