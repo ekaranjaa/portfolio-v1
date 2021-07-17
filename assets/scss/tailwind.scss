@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-}
-
 @layer utilities {
   .bg-blur {
     backdrop-filter: blur(4px);
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

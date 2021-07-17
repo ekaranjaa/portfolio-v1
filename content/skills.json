@@ -5,7 +5,7 @@
             "icon": "js.svg"
         },
         {
-            "name": "TypeScript",
+            "name": "Typescript",
             "icon": "ts.svg"
         },
         {
@@ -21,7 +21,7 @@
             "icon": "mysql.svg"
         },
         {
-            "name": "Mongo DB",
+            "name": "MongoDB",
             "icon": "mongodb.svg"
         },
         {
@@ -37,11 +37,11 @@
             "icon": "css.svg"
         },
         {
-            "name": "SASS",
+            "name": "SCSS",
             "icon": "sass.svg"
         },
         {
-            "name": "Express",
+            "name": "ExpressJS",
             "icon": "express.svg"
         },
         {
@@ -53,7 +53,7 @@
             "icon": "vue.svg"
         },
         {
-            "name": "Tailwindcss",
+            "name": "TailwindCSS",
             "icon": "tailwindcss.svg"
         }
     ]

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative font-poppins leading-7 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition"
+    class="ddd relative font-poppins leading-7 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition"
   >
     <background />
     <navbar />

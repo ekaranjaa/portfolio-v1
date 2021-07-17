@@ -123,7 +123,7 @@ export default {
     }
   },
 
-  css: [],
+  css: ['@/assets/scss/tailwind.scss'],
 
   components: true,
 
